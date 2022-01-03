@@ -1,0 +1,23 @@
+{
+  "name": "cyForPDI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@cypress/electron-plugin": "^1.1.0",
+    "cypress": "^8.3.1",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
